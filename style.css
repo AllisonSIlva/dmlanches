@@ -1,0 +1,179 @@
+body {
+	background-image: url('https://static.vecteezy.com/system/resources/previews/001/233/195/non_2x/wood-background-texture-vector.jpg');
+	background-size: 200px 200px;
+	padding: 100px 100px 100px 100px;
+}
+
+	h1{
+   		size: 300px ;
+   		color: #000000;
+
+	}
+	
+
+	#tabela{
+			background: #ff9b23;
+			padding: 40px 40px 40px 40px;
+			box-shadow: 10px 10px 10px 10px;
+			border-radius: 15px;
+
+	}
+
+	 #logo{
+			background: #ff0000;
+			padding: 0px 10px 0px 10px;
+			border-radius: 15px;
+			width: 310px;
+			height: 160px;
+		}
+
+	
+	#nomelogo{
+		color: black;
+		font-size: 60px;	
+	}
+	
+	#fonte{
+		font-family: Comic Sans MS, Comic Sans, cursive;
+
+		}
+	
+	#fonte1{
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		color: red;
+		}	
+
+	#loginpage{
+		border: 2px solid black;
+		border-radius: 10px;
+		box-shadow: 3px 3px 0px 0px;
+	}
+	#loginpage1{
+		border: 2px solid black;
+		border-radius: 10px;
+		box-shadow: 3px 3px 0px 0px;
+	}
+
+
+	div {
+		background: #F3D051;
+		padding: 30px 30px 30px 30px;
+		border-radius: 30px;
+	}
+	#daniel{
+		padding: 30px 30px 30px 30px;
+		border-radius: 30px;
+	}
+	
+
+	a {
+		color: #0000FF;
+	}
+	hr{
+	 border-color: #000000; 
+	}
+	h3{
+		color: #000000;
+	}
+	table{
+		background: #F3D051;
+		color: #000000;
+		border-radius: 15px 15px 15px 15px;
+		border-bottom: black;
+  	
+	}
+
+	/* Add a black background color to the top navigation */
+	@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600%27');
+    .body1 {
+        margin: 0;
+        background: black;
+        font-family: 'Work Sans', sans-serif;
+		font-weight: 1000;
+		border-radius: 5px;
+    }
+
+    .container1 {
+        width: 80%;
+		margin: 0 auto;
+    }
+
+    header {
+      background: #ff9b23;
+    }
+
+    header::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .icone {
+      float: left;
+	  padding: 10px;
+	  background: #ff0000;
+	  border-radius: 15px;
+	  width: 120px;
+	  height: 20px;
+    }
+
+    nav {
+      float: right;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+	  list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-left: 70px;
+	  padding-top: 23px;
+	  padding-bottom: 20px;
+
+      position: relative;
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      text-transform: uppercase;
+	  font-size: 14px;
+	  
+    }
+
+    nav a:hover {
+	  color: red;
+	  
+    }
+
+    nav a::before {
+      content: '';
+      display: block;
+      height: 5px;
+	  background-color: rgb(255, 255, 255);
+	  
+
+      position: absolute;
+      top: 0;
+      width: 0%;
+
+      transition: all ease-in-out 250ms;
+		
+	}
+
+    nav a:hover::before {
+	  width: 100%;
+	  border-radius: 30px;
+	}
+	
+	#div {
+		background: black;
+		padding: 10px 10px 10px 10px;
+		border-radius: 30px;
+
+	}
+
+
